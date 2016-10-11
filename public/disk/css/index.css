@@ -3,7 +3,8 @@ html,body{width: 100%;overflow: hidden;}
 /* header */
 .g-header{min-width: 940px;height: 50px;border-bottom: 1px solid #d8dce5;}
 .g-header h1{float: left;margin-top: 10px;margin-left: 19px;}
-.g-info {float: right;}
+.g-info {float: right;margin: 15px;}
+.g-info a{font-size: 14px;}
 
 
 

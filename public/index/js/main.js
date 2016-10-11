@@ -108,6 +108,7 @@ $(function(){
     var btn = $('.g-reg-wrap .btn');
     var prompt = $('.g-reg-wrap .prompt');
     var form = $('.g-reg-wrap form');
+    console.log(form)
 
     form.on('submit', function(){
         $.ajax({
