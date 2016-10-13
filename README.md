@@ -11,10 +11,11 @@
 - git clone 本项目到本地  
 - 确保系统中已经安装了node.js和mongodb服务器
 - 进入项目的根目录  
-- 在终端运行命令 npm -i安装项目所依赖的node模块  
+- 在终端运行命令 npm i安装项目所依赖的node模块  
 - 创建mongodb数据文件夹 mkdir ./db(linux环境下)  
 - 在终端运行命令 mongod --dbpath ./db  
 - 之后运行命令 node ./app.js 启动服务器  
 - 在浏览器中访问 127.0.0.1:9999  
 
-**因本人服务器限制无法开启mongodb服务器，所以没有提供在线地址**
+## 在线地址  
+yun.ayabala.com
