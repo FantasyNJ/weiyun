@@ -177,7 +177,11 @@ $(function(){
         $(this).find('.pr').animate({top: 0, opacity: 1}, 700);
     });
 
-    $(window).scroll(function(){
+    scrollEvent()
+
+    $(window).scroll(scrollEvent);
+
+    function scrollEvent(){
         detail.each(function(index, item){
             var h = $(window).scrollTop() + $(window).height();
             if(h > $(item).offset().top+30){
@@ -187,5 +191,5 @@ $(function(){
                 }
             }
         })
-    })
+    }
 })
